@@ -12,6 +12,8 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 ## Summary Statistics on Suspension Coils
 
+In this example we ran summary statistics of suspension coil PSI for the whole population and then segmented by lots. The design specifications for MechaCar suspension coils dictates that the variance of the suspension coils must not exceed 100 pounds per square inch. Lots one and two pass this test, however, lot 3 fails with PSI variance of 170.
+
 Summary statistics for suspension coil PSI:
 
 ![](https://github.com/niklasax/MechaCar_Statistical_Analysis/blob/main/Screen%20Shot%202021-01-31%20at%207.14.07%20PM.png)
@@ -20,9 +22,10 @@ Summary statistics for suspension coil PSI (by lot):
 
 ![](https://github.com/niklasax/MechaCar_Statistical_Analysis/blob/main/Screen%20Shot%202021-01-31%20at%207.23.38%20PM.png)
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ## T-Tests on Suspension Coils
+
+In this example we used t-tests to compare the population mean (1500) to sample means of different lots. Lots one and two have a p-value of over the significant value (.05) so we fail to reject the null hypothesis, these lots are statistically similar to the population mean of 1500. Lot 3 has a p-value of under the significant value(.05) so we reject the null hypothesis, this sample mean is statistically different from the population mean.
 
 Lot 1 T Test:
 
